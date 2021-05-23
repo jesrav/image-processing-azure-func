@@ -1,4 +1,4 @@
-# pdf-processing-azure-func
+# image-processing-azure-func
 
 Example azure function app, that processes images, using a blob trigger.
 
