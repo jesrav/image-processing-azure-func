@@ -1,0 +1,20 @@
+{
+  "scriptFile": "__init__.py",
+  "bindings": [
+    {
+      "name": "imageinput",
+      "type": "blobTrigger",
+      "direction": "in",
+      "path": "images/raw/{name}",
+      "connection": "IMAGE_STORAGE_CONNECTION_STRING"
+    }
+    ,{
+      "name": "croppedimageoutput",
+      "type": "blob",
+      "direction": "out",
+      "path": "images/processed/{name}",
+      "connection": "IMAGE_STORAGE_CONNECTION_STRING"
+    }
+
+  ]
+}
